@@ -51,7 +51,8 @@ header{
     line-height: 38px;
 }
 .banner-image:hover img{
-    
+    transform: scale3d(0.8, 1, 1.2);
+    transition: transform 1s;
 }
 
 /* ---------------Player-Information------------- */
@@ -157,4 +158,26 @@ header{
         align-items: center;
     }
 
+}
+
+/* Tablet Devices */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .container{
+        margin: 0px;
+        padding: 40px;
+    }
+    .banner-heading{
+        font-size: 36px;
+        margin-left: 5px;
+    }
+    .banner-image img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .players{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
 }
