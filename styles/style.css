@@ -61,7 +61,7 @@ header{
     grid-template-columns: repeat(3, 1fr);
 }
 .player-info:hover > .player{
-    transform: scale(1.1);
+    transform: scale(0.97);
     transition: transform 0.5s;
     cursor: pointer;
 }
@@ -117,8 +117,8 @@ header{
     margin-top: 50px;
 }
 .footer-logo{
-    width: 350px;
-    height: 95px;
+    width: 290px;
+    height: 90px;
 }
 .social-site{
     font-size: 25px;
